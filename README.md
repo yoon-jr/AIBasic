@@ -49,13 +49,17 @@
 2.
 
 - Layer 개수 별 validation accuracy / loss 변화
+
   ![image](https://github.com/user-attachments/assets/7c1aa379-f9d9-4e57-b02a-f25b8eb1cd17)
+
   4 layer MLP
   learning_rate = 1e-3
   output_size = 10
   epoch_size = 5
   hidden_sizes = [300, 100, 5]
+
   ![image](https://github.com/user-attachments/assets/691442ff-f193-477a-93f2-22e83cd52d72)
+
   5 layer MLP
   learning_rate = 1e-3
   output_size = 10
@@ -65,7 +69,9 @@
 **layer가 많을수록 정확도가 높아질 것이라고 예상했지만, 오히려 정확도가 떨어짐.**
 
 - 본인이 낼 수 있는 최대의 validation accuracy
+
   ![image](https://github.com/user-attachments/assets/d8fa6c3d-5d9a-4940-959b-3c67bd784e48)
+
   4 layer MLP
   learning_rate = 1e-3
   output_size = 10
