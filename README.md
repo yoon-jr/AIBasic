@@ -1,10 +1,8 @@
 # AIBasic
 
-### 과제 1 : MLP Classification
+## 과제 1 : MLP Classification
 
-#### 결과 분석
-
-1.
+### 결과 분석
 
 - learning rate 별 validation accuracy / loss 변화
 
@@ -46,7 +44,9 @@
 
 **epoch_size를 크게 했을 때 정확도가 올라감.**
 
-2.
+## 과제 2 : N-layer MLP Classification
+
+### 결과 분석
 
 - Layer 개수 별 validation accuracy / loss 변화
 
@@ -80,6 +80,13 @@
 
 **hidden_size를 하나로 하고 크기를 크게 설정했을 때 정확도가 가장 높았음.**
 
-#### 과제 2 : N-layer MLP Classification
+## 과제 3: GAN
 
-#### 과제 3: GAN
+### 생성 결과
+
+![image](https://github.com/user-attachments/assets/0b855bba-f20c-4149-81c5-c723aab9812d)
+
+### 분석
+
+Generator가 더 정교한 결과를 만들어 낸다. 초반에는 식별이 어려운 숫자들이 많이 보였지만 후반으로 갈수록 이질감이 없게 느껴진다. Discriminator 역시 Generator가 만든 정교한 결과를 fake 이미지로 잘 분류하기 위한 성능 향상을 보인다.
+Generator는 랜덤한 숫자로 구성된 벡터를 입력받고 최대한 진짜 같은 가짜 샘플을 출력하며 훈련 데이터셋에 있는 샘플과 구별이 불가능한 가짜 샘플을 생성하는 것을 목표로 한다. 반면 Discriminator는 훈련 데이터셋에 있는 실제 샘플과 생성자가 만든 가짜 샘플을 입력받아 입력 샘플이 진짜일 확률을 예측하여 출력한다. 생성자가 만든 가짜 샘플과 훈련 데이터셋의 진짜 샘플을 구별하는 것이 Discriminator의 목표이다.
