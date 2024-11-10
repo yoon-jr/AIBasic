@@ -7,7 +7,9 @@
 1.
 
 - learning rate 별 validation accuracy / loss 변화
+
   ![image](https://github.com/user-attachments/assets/3dd44b77-1cb6-4f8b-be9f-e10e4a9a0d8b)
+
   learning_rate = 1e-2
   output_size = 10
   epoch_size = 5
