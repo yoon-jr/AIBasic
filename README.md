@@ -15,7 +15,9 @@
   epoch_size = 5
   hidden_size1 = 300
   hidden_size2 = 100
+
   ![image](https://github.com/user-attachments/assets/bf856fda-a308-48fc-93a9-22f69e6c4502)
+
   learning_rate = 1e-3
   output_size = 10
   epoch_size = 5
@@ -25,13 +27,17 @@
 **learning_rate를 크게 했을 때 정확도가 올라감.**
 
 - 학습 epoch 변화에 따른 validation accuracy / loss 변화
+
   ![image](https://github.com/user-attachments/assets/ade5e8c6-69a1-405a-90d2-1a9966c956e8)
+
   learning_rate = 1e-3
   output_size = 10
   epoch_size = 5
   hidden_size1 = 300
   hidden_size2 = 100
+
   ![image](https://github.com/user-attachments/assets/2d35f22b-8de1-4070-b90b-5bc8961113a5)
+
   learning_rate = 1e-3
   output_size = 10
   epoch_size = 10
